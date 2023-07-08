@@ -3,3 +3,6 @@
 
 ./
 `npm i @ignite-ui/react`
+
+`npm i -D @rocketseat/eslint-config`
+`npm run lint:fix`
