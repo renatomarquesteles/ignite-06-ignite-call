@@ -6,3 +6,5 @@
 
 `npm i -D @rocketseat/eslint-config`
 `npm run lint:fix`
+
+`npm i phosphor-react`

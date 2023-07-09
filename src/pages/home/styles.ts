@@ -13,13 +13,13 @@ export const Hero = styled('div', {
   maxWidth: 560,
   padding: '0 $10',
 
-  [`${Heading}`]: {
+  [`> ${Heading}`]: {
     '@media(max-width: 600px)': {
       fontSize: '$6xl',
     },
   },
 
-  [`${Text}`]: {
+  [`> ${Text}`]: {
     marginTop: '$2',
     color: '$gray200',
   },
