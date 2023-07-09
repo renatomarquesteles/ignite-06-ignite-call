@@ -37,7 +37,7 @@ export function ClaimUsernameForm() {
         <TextInput
           size="sm"
           prefix="ignite.com/"
-          placeholder="Your username"
+          placeholder="your-username"
           {...register('username')}
         />
 
