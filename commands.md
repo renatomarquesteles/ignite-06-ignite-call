@@ -8,3 +8,5 @@
 `npm run lint:fix`
 
 `npm i phosphor-react`
+
+`npm i react-hook-form @hookform/resolvers zod`
