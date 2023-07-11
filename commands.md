@@ -18,3 +18,6 @@
 `npx prisma studio`
 
 `npm i axios`
+
+`npm i nookies`
+`npm i -D @types/cookie`

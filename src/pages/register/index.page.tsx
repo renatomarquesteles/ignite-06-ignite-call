@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import { AxiosError } from 'axios'
 import { Button, Heading, MultiStep, Text, TextInput } from '@ignite-ui/react'
 import { useForm } from 'react-hook-form'
 import { ArrowRight } from 'phosphor-react'
@@ -46,7 +47,12 @@ export default function Register() {
         name: data.name,
       })
     } catch (err) {
-      console.log(err)
+      if (err instanceof AxiosError && err?.response?.data?.message) {
+        alert(err.response.data.message)
+        return
+      }
+
+      console.error(err)
     }
   }
 
