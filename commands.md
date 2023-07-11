@@ -10,3 +10,9 @@
 `npm i phosphor-react`
 
 `npm i react-hook-form @hookform/resolvers zod`
+
+`npm i -D prisma`
+`npm i @prisma/client`
+`npx prisma init --datasource-provider SQLite` // it can be changed to another database later
+`npx prisma migrate dev`
+`npx prisma studio`
