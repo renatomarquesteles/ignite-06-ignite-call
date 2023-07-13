@@ -23,3 +23,4 @@
 `npm i -D @types/cookie`
 
 `npm i next-auth`
+`openssl rand -base65 32`
