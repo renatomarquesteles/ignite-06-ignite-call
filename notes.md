@@ -17,3 +17,17 @@ A way to have backend routes inside the frontend of the app.
 Files inside the `/pages/api` folder with the `.api.tsx?` extension (as configured
 on `next.config.js`) are mapped to `/api/*` and will be treated
 as an API endpoint.
+
+# OAuth
+It allows users to grant third-party applications access to their resources without
+sharing their credentials. It enables users to log in using their existing social
+media or other online accounts, granting limited access to their data.
+
+# Next-Auth
+Full-featured authentication system with built-in providers (Google, Facebook, GitHub...),
+JWT, JWE, email/password, magic links and more...
+
+# Google OAuth
+https://console.cloud.google.com/apis/dashboard
+> OAuth permissions configuration
+> Google Calendar API activation

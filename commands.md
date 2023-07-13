@@ -21,3 +21,5 @@
 
 `npm i nookies`
 `npm i -D @types/cookie`
+
+`npm i next-auth`
