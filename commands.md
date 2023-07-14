@@ -24,3 +24,5 @@
 
 `npm i next-auth`
 `openssl rand -base65 32`
+
+`npx prisma migrate dev`
