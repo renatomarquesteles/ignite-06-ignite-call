@@ -26,3 +26,5 @@
 `openssl rand -base65 32`
 
 `npx prisma migrate dev`
+
+`npx prisma migrate dev`
