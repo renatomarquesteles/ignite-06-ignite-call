@@ -30,3 +30,5 @@
 `npx prisma migrate dev`
 
 `npm i dayjs`
+
+`npx prisma migrate dev`
