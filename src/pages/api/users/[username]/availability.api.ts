@@ -57,7 +57,9 @@ export default async function handle(
       (blockedTime) => blockedTime.date.getHours() === time,
     )
 
-    return !isBlocked
+    const isPastTime = selectedDate.set('hour', time).isBefore(new Date())
+
+    return !isBlocked && !isPastTime
   })
 
   return res.json({ possibleTimes, availableTimes })
