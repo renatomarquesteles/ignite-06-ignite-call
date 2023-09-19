@@ -34,3 +34,7 @@
 `npx prisma migrate dev`
 
 `npm i react-query`
+
+`docker run --name mysql -e MYSQL_ROOT_PASSWORD=docker -p 3306:3306 mysql:latest -d`
+
+`npx prisma migrate dev`
